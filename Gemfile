@@ -17,8 +17,10 @@ gem 'rails_12factor' , group: :production
 gem 'bootstrap-sass'
 
 #use Stripe
-
 gem 'stripe' , :git => 'https://github.com/stripe/stripe-ruby'
+
+# figaro gem 
+gem "figaro"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
